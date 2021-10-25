@@ -1,23 +1,29 @@
 const bicidacorsa = [
     {
         nome : 'bici1',
-        peso : 0.9
+        peso : 9
     },
     {
         nome : 'bici2',
-        peso : 7.0 
+        peso : 7 
     },
     {
         nome : 'bici3',
-        peso : 3.0
+        peso : 3
+    },
+    {
+        nome : 'bici4',
+        peso : 1
     }
+
 ]
 
 console.log(bicidacorsa[0].peso);
 var minore = bicidacorsa[0].peso;
 var identificatore = 0;
 for(let i=0;i<bicidacorsa.length;i++){
-    if(bicidacorsa[i]<minore){
+    console.log(bicidacorsa[i].nome);
+    if(bicidacorsa[i].peso<minore){
         minore = bicidacorsa[i].peso;
         identificatore = i;
     }
