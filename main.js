@@ -29,4 +29,4 @@ for(let i=0;i<bicidacorsa.length;i++){
     }
 }
 
-console.log("Peso minore : "+ minore + " della bicicletta : " + bicidacorsa[identificatore].nome);
+document.getElementById("stampa").innerHTML = "Peso minore : "+ minore + " della bicicletta : " + bicidacorsa[identificatore].nome
