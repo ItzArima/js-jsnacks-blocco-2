@@ -58,6 +58,7 @@ for(let i = 0;i<squadre.length;i++){
     var inserisci = prompt("inserire nome squadra");
     squadre[i].nome = inserisci;
     squadre[i].falli = Math.floor(Math.random() * 10);
-    squadre[i].punti = Math.floor(Math.random() * 10);
+    delete squadre[i].punti;
     console.log(squadre[i].nome+ " : punti " + squadre[i].punti + "; falli commessi : " + squadre[i].falli);
+
 }
