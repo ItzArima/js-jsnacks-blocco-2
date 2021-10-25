@@ -22,7 +22,7 @@ console.log(bicidacorsa[0].peso);
 var minore = bicidacorsa[0].peso;
 var identificatore = 0;
 for(let i=0;i<bicidacorsa.length;i++){
-    console.log(bicidacorsa[i].nome);
+    /* console.log(bicidacorsa[i].nome); */
     if(bicidacorsa[i].peso<minore){
         minore = bicidacorsa[i].peso;
         identificatore = i;
