@@ -30,7 +30,7 @@ for(let i=0;i<bicidacorsa.length;i++){
 
 document.getElementById("stampa").innerHTML = "Peso minore : "+ minore + " della bicicletta : " + bicidacorsa[identificatore].nome */
 
-const squadre = [
+/* const squadre = [
     {
         punti : 0,
         falli : 0,
@@ -62,3 +62,18 @@ for(let i = 0;i<squadre.length;i++){
     console.log(squadre[i].nome+ " : punti " + squadre[i].punti + "; falli commessi : " + squadre[i].falli);
 
 }
+
+ */
+
+
+var numeri = [];
+somma = 0;
+
+while(somma<50){
+    var numero = parseInt(prompt("inserisci un numero"));
+    numeri.push(numero);
+    somma +=numero;
+    console.log(somma);
+}    
+console.log(numeri);
+
