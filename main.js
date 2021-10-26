@@ -65,15 +65,35 @@ for(let i = 0;i<squadre.length;i++){
 
  */
 
+const bicidacorsa = [
+    {
+        nome : 'bici1',
+        peso : 9
+    },
+    {
+        nome : 'bici2',
+        peso : 7 
+    },
+    {
+        nome : 'bici3',
+        peso : 3
+    },
+    {
+        nome : 'bici4',
+        peso : 1
+    }
 
-var numeri = [];
-let somma = 0;
+];
+let index = 0;
+let bicileggera = bicidacorsa[1].peso;
+bicidacorsa.forEach(leggera);
+function leggera (bicidacorsa, indice){
+    if(bicidacorsa.peso < bicileggera){
+        bicileggera = bicidacorsa.peso;
+        index = indice;
+    }
+}
+console.log("la bici piu leggera e la "+ bicidacorsa[index].nome + " con il peso di " + bicileggera);
 
-while(somma<50){
-    var numero = parseInt(prompt("inserisci un numero"));
-    numeri.push(numero);
-    somma +=numero;
-    console.log(somma);
-}    
-console.log(numeri);
+
 
