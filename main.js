@@ -67,7 +67,7 @@ for(let i = 0;i<squadre.length;i++){
 
 
 var numeri = [];
-somma = 0;
+let somma = 0;
 
 while(somma<50){
     var numero = parseInt(prompt("inserisci un numero"));
